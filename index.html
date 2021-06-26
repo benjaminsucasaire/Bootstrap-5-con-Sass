@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,300;0,600;0,700;0,900;1,100&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="./css/reducido.css">
+</head>
+
+<body>
+    <!-- main es para el contenido principal -->
+    <!-- esto es para que abarque toda la altura posible vh-100 -->
+    <main class="container d-flex align-items-center justify-content-center alto-100 ">
+        <div class="row">
+            <!-- columna izquierda  -->
+            <div class="col-12 col-lg-9 ">
+                <!-- creamos otra columna  -->
+                <div class="row">
+                    <div class="col-12 col-lg-8 p-2">
+                        <!-- creamos un card -->
+                        <!-- el h-100 es para que tome toda la altura disponible -->
+                        <article class="card h-100 bg-primary text-white fondo-card shadow-lg ">
+                            <div class="card-body ">
+                                <div class="d-flex mb-3">
+                                    <img src="/img/image-daniel.jpg"
+                                        class=" border border-white border-4 rounded-circle" alt="daniel" />
+                                    <!-- p es igual a padding y s es igual a start que es lado izquierdo y 3 es igual a 3 = 1rem,  2=0.5rem.. -->
+                                    <!-- el lg significa que solo en tamaño lg va tener ese paddig -->
+                                    <div class="ps-3">
+                                        <!-- los margin son con la etiqueta m-x es el numero de rem (ver documentacion) -->
+                                        <!-- h6 es para que tome el tamaño y la tipografia de un h6 -->
+                                        <h6 class="m-0 h6">Daniel Clifford</h6>
+                                        <p class="m-0 h6">Lorem, ipsum</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p class="h6">Lorem ipsum dolor sit amet consectetur adipisicing elit. At autem quam
+                                        iure aspernatur beatae ullam facilis esse mollitia laborum fugiat voluptate,
+                                        dolorum, tenetur inventore accusamus maxime vel cupiditate nam repellendus!</p>
+                                    <!-- esto permite tener un tamaña espesifico font-size:6 -->
+                                    <p class="fs-6 lh-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                        autem quam iure aspernatur beatae ullam facilis esse mollitia laborum fugiat
+                                        voluptate, dolorum, tenetur inventore accusamus maxime vel cupiditate nam
+                                        repellendus! </p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-12 col-lg-4 p-2">
+                        <!-- creamos un card -->
+                        <article class="card h-100 bg-success text-white shadow-lg ">
+                            <div class="card-body ">
+                                <div class="d-flex mb-3">
+                                    <img src="/img/image-jeanette.jpg"
+                                        class=" border border-white border-4 rounded-circle" alt="daniel" />
+                                    <!-- p es igual a padding y s es igual a start que es lado izquierdo y 3 es igual a 3 = 1rem,  2=0.5rem.. -->
+                                    <!-- el lg significa que solo en tamaño lg va tener ese paddig -->
+                                    <div class="ps-3">
+                                        <!-- los margin son con la etiqueta m-x es el numero de rem (ver documentacion) -->
+                                        <!-- h6 es para que tome el tamaño y la tipografia de un h6 -->
+                                        <h6 class="m-0 h6">Daniel Clifford</h6>
+                                        <p class="m-0 h6">Lorem, ipsum</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <!-- esto permite tener un tamaña espesifico font-size:6 -->
+                                    <p class="fs-6 lh-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                        autem quam iure aspernatur beatae ullam facilis esse mollitia laborum fugiat
+                                        voluptate, dolorum, tenetur inventore accusamus maxime vel cupiditate nam
+                                        repellendus! </p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <!-- segundo fila -->
+                <div class="row">
+                    <div class="col-12 col-lg-4 p-2">
+                        <!-- creamos un card -->
+                        <article class="card h-100 bg-secondary shadow-lg ">
+                            <div class="card-body ">
+                                <div class="d-flex mb-3">
+                                    <img src="/img/image-jonathan.jpg"
+                                        class=" border border-white border-4 rounded-circle" alt="daniel" />
+                                    <!-- p es igual a padding y s es igual a start que es lado izquierdo y 3 es igual a 3 = 1rem,  2=0.5rem.. -->
+                                    <!-- el lg significa que solo en tamaño lg va tener ese paddig -->
+                                    <div class="ps-3">
+                                        <!-- los margin son con la etiqueta m-x es el numero de rem (ver documentacion) -->
+                                        <!-- h6 es para que tome el tamaño y la tipografia de un h6 -->
+                                        <h6 class="m-0 h6">Daniel Clifford</h6>
+                                        <p class="m-0 h6">Lorem, ipsum</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <!-- esto permite tener un tamaña espesifico font-size:6 -->
+                                    <p class="fs-6 lh-1 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                        autem quam iure aspernatur beatae ullam facilis esse mollitia laborum fugiat
+                                        voluptate, dolorum, tenetur inventore accusamus maxime vel cupiditate nam
+                                        repellendus! </p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-12 col-lg-8 p-2">
+                        <!-- creamos un card -->
+                        <article class="card h-100 bg-dark text-white shadow-lg ">
+                            <div class="card-body ">
+                                <div class="d-flex mb-3">
+                                    <img src="/img/image-kira.jpg"
+                                        class=" border border-white border-4 rounded-circle" alt="daniel" />
+                                    <!-- p es igual a padding y s es igual a start que es lado izquierdo y 3 es igual a 3 = 1rem,  2=0.5rem.. -->
+                                    <!-- el lg significa que solo en tamaño lg va tener ese paddig -->
+                                    <div class="ps-3">
+                                        <!-- los margin son con la etiqueta m-x es el numero de rem (ver documentacion) -->
+                                        <!-- h6 es para que tome el tamaño y la tipografia de un h6 -->
+                                        <h6 class="m-0 h6">Daniel Clifford</h6>
+                                        <p class="m-0 h6">Lorem, ipsum</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p class="h6">Lorem ipsum dolor sit amet consectetur adipisicing elit. At autem quam
+                                        iure aspernatur beatae ullam facilis esse mollitia laborum fugiat voluptate,
+                                        dolorum, tenetur inventore accusamus maxime vel cupiditate nam repellendus!</p>
+                                    <!-- esto permite tener un tamaña espesifico font-size:6 -->
+                                    <p class="fs-6 lh-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                        autem quam iure aspernatur beatae ullam facilis esse mollitia laborum fugiat
+                                        voluptate, dolorum, tenetur inventore accusamus maxime vel cupiditate nam
+                                        repellendus! </p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <!-- fin de segunda fila -->
+            </div>
+            <!--fin columnda izquierda -->
+            <!-- columnda derecha -->
+            <div class="col-12 col-lg-3 p-2">
+                <!-- creamos un card -->
+                <article class="card h-100 bg-secondary shadow-lg">
+                    <div class="card-body ">
+                        <div class="d-flex mb-3">
+                            <img src="/img/image-patrick.jpg" class=" border border-white border-4 rounded-circle"
+                                alt="daniel" />
+                            <!-- p es igual a padding y s es igual a start que es lado izquierdo y 3 es igual a 3 = 1rem,  2=0.5rem.. -->
+                            <!-- el lg significa que solo en tamaño lg va tener ese paddig -->
+                            <div class="ps-3">
+                                <!-- los margin son con la etiqueta m-x es el numero de rem (ver documentacion) -->
+                                <!-- h6 es para que tome el tamaño y la tipografia de un h6 -->
+                                <h6 class="m-0 h6">Daniel Clifford</h6>
+                                <p class="m-0 h6">Lorem, ipsum</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="h6">Lorem ipsum dolor sit amet consectetur adipisicing elit. At autem quam iure
+                                aspernatur beatae ullam facilis esse mollitia laborum fugiat voluptate, dolorum, tenetur
+                                inventore accusamus maxime vel cupiditate nam repellendus!</p>
+                            <!-- esto permite tener un tamaña espesifico font-size:6 -->
+                            <p class="fs-6 lh-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. At autem quam
+                                iure aspernatur beatae ullam facilis esse mollitia laborum fugiat voluptate, dolorum,
+                                tenetur inventore accusamus maxime vel cupiditate nam repellendus! </p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <!--fin columnda derecha -->
+        </div>
+    </main>
+</body>
+
+</html>
